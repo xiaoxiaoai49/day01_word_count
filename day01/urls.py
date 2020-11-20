@@ -19,5 +19,6 @@ from . import  views
 
 urlpatterns = [
     path('',views.index,name='index'),
-    path('count/',views.tongji)
+    path('count/',views.tongji),
+    path('about/',views.about)
 ]

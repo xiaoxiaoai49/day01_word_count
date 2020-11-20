@@ -21,3 +21,6 @@ def tongji(request):
     return render(request,'count.html',
                   {'count':total_count,'text':user_text,
                    'wordict':word_dict,'sortedict':soted_dict})
+
+def about(request):
+    return render(request, 'about.html')
